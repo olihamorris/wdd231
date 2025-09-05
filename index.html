@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Home</title>
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/large.css">
+  <script src="scripts/navigation.js" defer></script>
+  <script src="scripts/date.js" defer></script>
+  <script src="scripts/course.js" defer></script>
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <div class="logo">
+      <img src="images/byui-logo.webp" alt="Site Logo">
+      <h1>Site Name</h1>
+    </div>
+    <div class="hamburger">☰</div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Chamber Project</a>
+      <a href="#">Final Project</a>
+    </nav>
+  </header>
+
+  <!-- MAIN -->
+  <main>
+    <h2>Home</h2>
+    <div class="about-photo-wrapper">
+      <section class="box">
+        <h2>About Me</h2>
+        <p>Hello! My name is Morris OLIHA. I enjoy coding, design, and building responsive sites like this project.I'm developing skills in areas like programming languages, web development, database management, and software engineering. I'm part of a community that values academic excellence, creativity, and community service. I'm excited to apply my knowledge and skills to real-world problems and make a positive impact. When I'm not studying, I enjoy exploring new technologies and staying up-to-date with the latest trends in software development."</p>
+      </section>
+      <section class="box">
+        <h2>Student Photo</h2>
+        <img src="images/student.webp" alt="Student Photo" style="width:100%; border-radius:6px;">
+      </section>
+    </div>
+
+    <!-- COURSES -->
+    <section class="courses">
+      <h2>Web Certificate Courses</h2>
+      <div class="filter-buttons">
+        <button data-filter="All">All</button>
+        <button data-filter="CSE">CSE</button>
+        <button data-filter="WDD">WDD</button>
+      </div>
+      <div id="course-list" class="course-list"></div>
+      <p id="total-credits">Total credits: 0</p>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>
+      <a href="#"><img src="images/linkedin.webp" alt="LinkedIn"></a>
+      <a href="#"><img src="images/github.webp" alt="GitHub"></a>
+      <a href="#"><img src="images/x.webp" alt="Twitter"></a>
+    </p>
+    <p>© 2025 • Morris OLIHA • Edo, NIGERIA</p>
+    <p>Last Modification: <span id="lastModified"></span></p>
+  </footer>
+</body>
+</html>
