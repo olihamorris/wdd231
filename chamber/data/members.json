@@ -1,0 +1,76 @@
+{
+  "members": [
+    {
+      "name": "Royal Benin Hotels",
+      "address": "12 Oba Market Road, Benin City, Nigeria",
+      "phone": "+234 802 123 4567",
+      "website": "https://www.royalbeninhotels.com",
+      "image": "images/royal-benin-hotels.webp"
+    },
+    {
+      "name": "EdoTech Innovations",
+      "address": "45 Airport Road, Benin City, Nigeria",
+      "phone": "+234 803 555 7890",
+      "website": "https://www.edotech.com.ng",
+      "image": "images/edotech-innovations.webp"
+    },
+    {
+      "name": "Olimia Haircraft Tours",
+      "address": "1 King Square, Benin City, Nigeria",
+      "phone": "+234 701 234 5678",
+      "website": "https://www.olimia-haircraft.com",
+      "image": "images/olimia-haircraft.webp"
+    },
+    {
+      "name": "Edo Fresh Foods",
+      "address": "27 Uselu Lagos Road, Benin City, Nigeria",
+      "phone": "+234 802 987 6543",
+      "website": "https://www.edofreshfoods.com",
+      "image": "images/igodomigodo-farms.webp"
+    },
+    {
+      "name": "Edo Fresh Foods",
+      "address": "105 Murufu Bello Road, Benin City, Nigeria",
+      "phone": "+234 802 987 6543",
+      "website": "https://www.edofreshfoods.com",
+      "image": "images/edo-fresh-foods.webp"
+    },
+    {
+      "name": "Edo Pharmacy",
+      "address": "117 Eribo Jojon Road, Benin City, Nigeria",
+      "phone": "+234 802 387 6003",
+      "website": "https://www.edopharmacy.com",
+      "image": "images/edo-pharmacy.webp"
+    },
+    {
+      "name": "Edo Line",
+      "address": "55 Ediowe Road, Benin City, Nigeria",
+      "phone": "+234 802  365 4907",
+      "website": "https://www.edoline.com",
+      "image": "images/edo-line.webp"
+    },
+    {
+      "name": "Ononna World Tours",
+      "address": "217 Osagie Labada Road, Benin City, Nigeria",
+      "phone": "+234 802 987 6543",
+      "website": "https://www.ononnaworldtours.com",
+      "image": "images/ononna-world-tours.webp"
+    },
+    {
+      "name": "Bronze Fashion",
+      "address": "167 Omalolu Road, Benin City, Nigeria",
+      "phone": "+234 802 987 8833",
+      "website": "https://www.bronzefashion.com",
+      "image": "images/bronze-fashion.webp"
+    },
+    {
+      "name": "Bronze Gallery",
+      "address": "47 MUsel Road, Benin City, Nigeria",
+      "phone": "+234 802 98007 6543",
+      "website": "https://www.bronzegallery.com",
+      "image": "images/bronze-gallery.webp"
+    }
+  ]
+}
+
+

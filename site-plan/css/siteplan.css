@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Open+Sans&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #FFD166;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  background-color: #26547C;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.logo {
+  height: 40px;
+  vertical-align: middle;
+}
+
+nav a {
+  color: white;
+  margin: 0 0.5rem;
+  text-decoration: none;
+}
+
+main {
+  max-width: 800px;
+  margin: auto;
+  padding: 1rem;
+  background-color: white;
+}
+
+h1, h2, h3 {
+  font-family: 'Fredoka', sans-serif;
+  color: #FF6F59;
+}
+
+.color-samples {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.color-box {
+  width: 100px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.color-box.coral {
+  background-color: #FF6F59;
+  color: white;
+}
+
+.color-box.yellow {
+  background-color: #FFD166;
+  color: #333;
+}
+
+.color-box.blue {
+  background-color: #26547C;
+  color: white;
+}
+
+.wireframe {
+  width: 100%;
+  max-width: 600px;
+  border: 1px solid #ccc;
+  margin: 10px 0;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #555;
+  padding: 1rem;
+}
+
+
