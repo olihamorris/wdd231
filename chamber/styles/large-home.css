@@ -1,0 +1,26 @@
+
+@media (min-width: 768px) {
+  nav { display: block !important; }
+  #menu-button { display: none; }
+  .navigation { display: flex; gap: 1rem; justify-content: center; }
+
+  .hero-text { max-width: 600px; margin: 0 auto; }
+
+  #spotlight-container {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+  /* Grid view: 2–3 columns on larger screens */
+#members.grid {
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+/* Spotlight section: 2 columns on larger screens */
+.spotlight {
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+}
+
+
+
+

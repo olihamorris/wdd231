@@ -3,74 +3,85 @@
     {
       "name": "Royal Benin Hotels",
       "address": "12 Oba Market Road, Benin City, Nigeria",
-      "phone": "+234 802 123 4567",
+      "phone": "‪+234 802 123 4567‬",
       "website": "https://www.royalbeninhotels.com",
-      "image": "images/royal-benin-hotels.webp"
+      "image": "images/royal-benin-hotels.webp",
+      "membershipLevel": 3
     },
     {
       "name": "EdoTech Innovations",
       "address": "45 Airport Road, Benin City, Nigeria",
-      "phone": "+234 803 555 7890",
+      "phone": "‪+234 803 555 7890‬",
       "website": "https://www.edotech.com.ng",
-      "image": "images/edotech-innovations.webp"
+      "image": "images/edotech-innovations.webp",
+      "membershipLevel": 2
     },
     {
       "name": "Olimia Haircraft Tours",
       "address": "1 King Square, Benin City, Nigeria",
-      "phone": "+234 701 234 5678",
+      "phone": "‪+234 701 234 5678‬",
       "website": "https://www.olimia-haircraft.com",
-      "image": "images/olimia-haircraft.webp"
+      "image": "images/olimia-haircraft.webp",
+      "membershipLevel": 1
     },
     {
       "name": "Edo Fresh Foods",
       "address": "27 Uselu Lagos Road, Benin City, Nigeria",
-      "phone": "+234 802 987 6543",
+      "phone": "‪+234 802 987 6543‬",
       "website": "https://www.edofreshfoods.com",
-      "image": "images/igodomigodo-farms.webp"
+      "image": "images/igodomigodo-farms.webp",
+      "membershipLevel": 3
     },
     {
       "name": "Edo Fresh Foods",
       "address": "105 Murufu Bello Road, Benin City, Nigeria",
-      "phone": "+234 802 987 6543",
+      "phone": "‪+234 802 987 6543‬",
       "website": "https://www.edofreshfoods.com",
-      "image": "images/edo-fresh-foods.webp"
+      "image": "images/edo-fresh-foods.webp",
+      "membershipLevel": 1
     },
     {
       "name": "Edo Pharmacy",
       "address": "117 Eribo Jojon Road, Benin City, Nigeria",
-      "phone": "+234 802 387 6003",
+      "phone": "‪+234 802 387 6003‬",
       "website": "https://www.edopharmacy.com",
-      "image": "images/edo-pharmacy.webp"
+      "image": "images/edo-pharmacy.webp",
+      "membershipLevel": 2
     },
     {
       "name": "Edo Line",
       "address": "55 Ediowe Road, Benin City, Nigeria",
-      "phone": "+234 802  365 4907",
+      "phone": "‪+234 802  365 4907‬",
       "website": "https://www.edoline.com",
-      "image": "images/edo-line.webp"
+      "image": "images/edo-line.webp",
+      "membershipLevel": 3
     },
     {
       "name": "Ononna World Tours",
       "address": "217 Osagie Labada Road, Benin City, Nigeria",
-      "phone": "+234 802 987 6543",
+      "phone": "‪+234 802 987 6543‬",
       "website": "https://www.ononnaworldtours.com",
-      "image": "images/ononna-world-tours.webp"
+      "image": "images/ononna-world-tours.webp",
+      "membershipLevel": 2
     },
     {
       "name": "Bronze Fashion",
       "address": "167 Omalolu Road, Benin City, Nigeria",
-      "phone": "+234 802 987 8833",
+      "phone": "‪+234 802 987 8833‬",
       "website": "https://www.bronzefashion.com",
-      "image": "images/bronze-fashion.webp"
+      "image": "images/bronze-fashion.webp",
+      "membershipLevel": 1
     },
     {
       "name": "Bronze Gallery",
       "address": "47 MUsel Road, Benin City, Nigeria",
       "phone": "+234 802 98007 6543",
       "website": "https://www.bronzegallery.com",
-      "image": "images/bronze-gallery.webp"
+      "image": "images/bronze-gallery.webp",
+      "membershipLevel": 2
     }
   ]
 }
+
 
 

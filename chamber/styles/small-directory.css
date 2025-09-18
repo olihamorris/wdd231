@@ -142,7 +142,20 @@ nav.open {
   height: auto;
   margin-bottom: 0;
 }
+nav ul li a {
+  color: #ffd700; /* Bright dark yellow color */
+}
+nav ul li a:hover {
+  color: #ff9900; /* Different color on hover */
+}
 
+.email-link:hover {
+  color: #ff9900; /* Different color on hover */
+}
+
+.email-link {
+  color: #ffd700; /* Bright dark yellow color */
+}
 /* Footer */
 footer {
   background: #1059df;
