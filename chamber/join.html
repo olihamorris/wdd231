@@ -1,0 +1,171 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Join the Benin Chamber of Commerce</title>
+  <link rel="stylesheet" href="join.css">
+  <script defer src="join.js"></script>
+  <script src="scripts/date.js" defer></script>
+</head>
+<body>
+  <header>
+    <img src="images/logo.webp" alt="Benin Chamber of Commerce Logo" width="90" height="90">
+    <nav>
+        <ul class="navigation">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="directory.html" class="active">Directory</a></li>
+          <li><a href="join.html">Join Us</a></li>
+          <li><a href="discover.html">Discover</a></li>
+        </ul>
+      </nav>
+  </header>
+
+  <main class="container">
+    <section class="form-section">
+      <h1>Membership Application</h1>
+      <form method="get" action="thankyou.html">
+        <label>
+          First Name:
+          <input type="text" name="firstName" title="First Name" required autocomplete="given-name">
+        </label>
+
+        <label>
+          Last Name:
+          <input type="text" name="lastName" title="Last Name" required autocomplete="family-name">
+        </label>
+
+        <label>
+          Organization Title:
+          <input type="text" name="orgTitle" title="Organizational Title" autocomplete="organization-title" 
+                 pattern="[A-Za-z\s-]{7,}">
+        </label>
+
+        <label>
+          Email:
+          <input type="email" name="email" title="Email Address" required autocomplete="email" placeholder="name@example.com">
+        </label>
+
+        <label>
+          Mobile Phone:
+          <input type="tel" name="phone" title="Mobile Phone" required autocomplete="tel">
+        </label>
+
+        <label>
+          Organization Name:
+          <input type="text" name="organization" title="Business/Organization" required autocomplete="organization">
+        </label>
+
+        <label>
+          Membership Level:
+          <select name="membership" required>
+            <option value="" disabled selected>Select a level</option>
+            <option value="np">NP Membership (Non-Profit)</option>
+            <option value="bronze">Bronze Membership</option>
+            <option value="silver">Silver Membership</option>
+            <option value="gold">Gold Membership</option>
+          </select>
+        </label>
+
+        <label>
+          Organization Description:
+          <textarea name="description" title="Business Description"></textarea>
+        </label>
+
+        <input type="hidden" name="timestamp" id="timestamp">
+
+        <input type="submit" value="Submit Application">
+      </form>
+    </section>
+
+    <!-- Membership Cards -->
+    <aside class="membership-cards">
+      <div class="card">
+        <h2>NP Membership</h2>
+        <button type="button" data-modal="np">View Benefits</button>
+      </div>
+      <div class="card">
+        <h2>Bronze Membership</h2>
+        <button type="button" data-modal="bronze">View Benefits</button>
+      </div>
+      <div class="card">
+        <h2>Silver Membership</h2>
+        <button type="button" data-modal="silver">View Benefits</button>
+      </div>
+      <div class="card">
+        <h2>Gold Membership</h2>
+        <button type="button" data-modal="gold">View Benefits</button>
+      </div>
+    </aside>
+  </main>
+
+  <!-- Modals -->
+  <div class="modal" id="np">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>NP Membership Benefits</h2>
+      <ul>
+        <li>No fees</li>
+        <li>Access to networking events</li>
+        <li>Basic training sessions</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="modal" id="bronze">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Bronze Membership Benefits</h2>
+      <ul>
+        <li>Event discounts</li>
+        <li>Advertising in newsletters</li>
+        <li>Access to special events</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="modal" id="silver">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Silver Membership Benefits</h2>
+      <ul>
+        <li>All Bronze benefits</li>
+        <li>Featured spotlight on homepage</li>
+        <li>Training workshops</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="modal" id="gold">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Gold Membership Benefits</h2>
+      <ul>
+        <li>All Silver benefits</li>
+        <li>Exclusive advertising</li>
+        <li>Premium event discounts</li>
+      </ul>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-inner">
+      <p>&copy; <span id="currentYear"></span> Benin Chamber of Commerce</p>
+      <p>Contact Us:
+        <a class="email-link" href="mailto:info@beninchamberofcommerce.com">info@beninchamberofcommerce.com</a> |
+        Phone: 090456-7890
+      </p>
+      <p>Developed by: Morris OLIHA | WDD 231</p>
+      <p>Last Modified: <span id="lastModified"></span></p>
+      <div class="social-links">
+        <a href="https://facebook.com" target="_blank" aria-label="Facebook">🌐 Facebook</a>
+        <a href="https://wa.me/2348012345678" target="_blank" aria-label="WhatsApp">💬 WhatsApp</a>
+        <a href="https://twitter.com" target="_blank" aria-label="Twitter">🐦 Twitter</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
+
+

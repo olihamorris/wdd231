@@ -8,10 +8,16 @@ body {
 
 /* reuse header styles from directory */
 header {
-  background: #3498db;
-  color: #fff;
+  background: #003366;
+  color: white;
+  text-align: center;
+  padding: 1rem;
 }
-.header-container { display: flex; flex-direction: column; align-items: center; padding: .75rem 1rem; }
+.header-container { 
+  display: flex; 
+  flex-direction: 
+  column; align-items: 
+  center; padding: .75rem 1rem; }
 
 .hero {
   position: relative;
@@ -68,8 +74,8 @@ nav ul li a:hover {
 
 /* footer same as directory */
 footer {
-  background: #1059df;
-  color: #ffffff;
+  background: #003366;
+  color: white;
   padding: 1rem;
   margin-top: 2rem;
 }
@@ -146,6 +152,13 @@ footer .social-links a:hover { color: #ffff00; }
 .view-toggle button:hover {
   background: #2b7cb0;
 }
+.weather {
+  border: 1px solid #ddd;
+  padding: 20px;
+  background-color: #f9f9f9;
+  margin: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
 /* ---- SPOTLIGHT SECTION ---- */
 .spotlight {
@@ -154,5 +167,10 @@ footer .social-links a:hover { color: #ffff00; }
   gap: 1rem;
   margin: 1rem;
 }
-
+header, footer {
+  background: #003366;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
 

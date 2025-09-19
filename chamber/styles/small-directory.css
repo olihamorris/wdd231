@@ -2,40 +2,36 @@ body {
   font-family: 'Roboto', sans-serif;
   line-height: 1.5;
   margin: 0;
-  padding: 0;
   background-color: #ffffff;
-  text-align: center; /* centres inline text by default */
+  text-align: center;
 }
 
-/* Header */
+/* reuse header styles from directory */
 header {
-  background: #3498db;
-  color: #fff;
+  background: #003366;
+  color: white;
+  text-align: center;
+  padding: 1rem;
 }
-
-.header-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; /* centres horizontally */
-  padding: 0.75rem 1rem;
-  max-width: 1200px;
-  margin: 0 auto;
-}
+.header-container { 
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  padding: .75rem 1rem; }
 
 .branding {
   display: flex;
   align-items: center;
-  justify-content: center;
   gap: 0.5rem;
 }
 
 .branding img {
-  display: block;
   width: 48px;
   height: 48px;
+  display: block;
 }
 
+/* ---- Navigation (same on all pages) ---- */
 #menu-button {
   background: none;
   border: none;
@@ -43,30 +39,35 @@ header {
   color: #fff;
 }
 
-/* Navigation */
 nav {
   display: none;
   text-align: center;
 }
+
 nav.open {
   display: block;
 }
+
 .navigation {
   list-style: none;
   padding: 0;
   margin: 0;
   text-align: center;
 }
+
 .navigation li a {
   display: block;
   padding: 0.5rem 1rem;
-  color: #fff;
+  color: #ffd700; /* bright yellow links */
   text-decoration: none;
 }
-.navigation li a.active,
-.navigation li a:hover {
+
+.navigation li a:hover,
+.navigation li a.active {
+  color: #ff9900; /* hover color */
   background-color: rgba(255, 255, 255, 0.15);
 }
+
 
 /* Hero */
 .hero {
@@ -158,8 +159,8 @@ nav ul li a:hover {
 }
 /* Footer */
 footer {
-  background: #1059df;
-  color: #ffffff;
+  background: #003366;
+  color: white;
   padding: 1rem;
   margin-top: 2rem;
 }
